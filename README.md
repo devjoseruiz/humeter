@@ -14,6 +14,10 @@ Humeter is a project that combines Arduino and Socket.IO, with the aim of taking
  - Node.js
  - Bower
 
+## Assembly
+
+![Schema](https://gitlab.com/joseruizdev/humeter/-/raw/master/arduino/schema.png)
+
 ## Installation
 Go to the project directory. Then, just enter the following commands in the terminal:<br/>
 ```
