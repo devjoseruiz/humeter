@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include partials/head %>
+	</head>
+	<body>
+		<header>
+			<% include partials/header %>
+		</header>
+
+		<section class="container-fluid">
+			<div id="chart" class="ct-chart ct-minor-sixth"></div>
+			<center>
+				<ul class="legend">
+					<li class="series-0">Humidity (%)</li>
+					<li class="series-1">Temperature (ºC)</li>
+				</ul>
+			</center>
+		</section>
+
+		<footer class="navbar navbar-inverse navbar-fixed-bottom">
+			<% include partials/footer %>
+		</footer>
+
+		<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="vendor/chartist/dist/chartist.min.js"></script>
+		<script type="text/javascript" src="vendor/socket.io-client/socket.io.js"></script>
+		<script type="text/javascript" src="vendor/chartist-plugin-pointlabels/dist/chartist-plugin-pointlabels.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

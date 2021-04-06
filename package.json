@@ -1,0 +1,30 @@
+{
+  "name": "Humeter",
+  "version": "1.0.0",
+  "description": "Humidity and temperature meter made with Arduino and Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jmruizt/Humeter.git"
+  },
+  "keywords": [
+    "Arduino",
+    "Socket.IO",
+    "Chartist.js"
+  ],
+  "author": "José Miguel Ruiz Torres",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jmruizt/Humeter/issues"
+  },
+  "homepage": "https://github.com/jmruizt/Humeter#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "serialport": "^2.0.7-beta5",
+    "socket.io": "^1.4.5"
+  }
+}

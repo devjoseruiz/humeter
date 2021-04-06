@@ -1,0 +1,53 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.container-fluid{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+/* Override Chartist CSS */
+.ct-series-a .ct-line,
+.ct-series-a .ct-point{
+	stroke: #333333;
+}
+
+.ct-series-a .ct-area{
+	fill: grey;
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point{
+	stroke: #008CBA;
+}
+
+.ct-series-b .ct-area{
+	fill: blue;
+}
+
+.ct-label.ct-vertical{
+	padding-right: 1.5em;
+}
+
+/* Chartist legend */
+.legend li{
+	display: inline-block;
+	padding-left: 1em;
+	list-style: none;
+	cursor: pointer;
+}
+
+.legend li:before{
+	content: '\25A0';
+}
+
+.legend .series-0:before{
+	color: #333333;
+}
+
+.legend .series-1:before{
+	color: #008CBA;
+}
